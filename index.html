@@ -137,6 +137,14 @@
         },
         {
           "@type": "Offer",
+          "name": "Plus",
+          "description": "Boekhouding voor ZZP'ers en groeiende eenmanszaken tot 350 boekingen per jaar. Inclusief maandrapportage en cashflow-overzicht.",
+          "price": "115.00",
+          "priceCurrency": "EUR",
+          "url": "https://www.fortly.nl/aanmelden.html?pakket=plus"
+        },
+        {
+          "@type": "Offer",
           "name": "Groei",
           "description": "Boekhouding voor ZZP'ers en groeiende eenmanszaken tot 500 boekingen per jaar. Inclusief maandrapportage en cashflow-overzicht.",
           "price": "145.00",
@@ -193,7 +201,7 @@
         "name": "Wat kost een boekhouder voor een ZZP'er?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Bij Fortly betaal je als ZZP'er een vaste maandprijs vanaf \u20ac85 per maand (excl. btw) voor het Instap-pakket of \u20ac145 per maand voor het Groei-pakket. De prijs is inclusief btw-aangifte, IB-aangifte en persoonlijk contact. Geen verborgen kosten of uurtarieven."
+          "text": "Bij Fortly betaal je als ZZP'er een vaste maandprijs vanaf \u20ac85 per maand (excl. btw) voor het Instap-pakket, \u20ac115 per maand voor het Plus-pakket of \u20ac145 per maand voor het Groei-pakket. De prijs is inclusief btw-aangifte, IB-aangifte en persoonlijk contact. Geen verborgen kosten of uurtarieven."
         }
       },
       {
@@ -201,7 +209,7 @@
         "name": "Wat is inbegrepen in de boekhouding voor ZZP'ers?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Fortly verzorgt voor ZZP'ers de volledige boekhouding: verwerking van facturen en bonnetjes, kwartaal btw-aangifte, jaarlijkse IB-aangifte, een vaste aanspreekpersoon en proactieve signalering door onze controllers. Het Groei-pakket omvat daarnaast maandelijkse rapportage en cashflow-overzichten."
+          "text": "Fortly verzorgt voor ZZP'ers de volledige boekhouding: verwerking van facturen en bonnetjes, kwartaal btw-aangifte, jaarlijkse IB-aangifte, een vaste aanspreekpersoon en proactieve signalering door onze controllers. Het Plus- en het Groei-pakket omvatten daarnaast maandelijkse rapportage en cashflow-overzichten."
         }
       },
       {
@@ -737,7 +745,7 @@
         <p class="mt-3 text-slate-300">Vanaf &euro;85 per maand, alles inbegrepen. Alle prijzen exclusief btw, geen uurtarief en geen naheffingen.</p>
       </div>
 
-      <div class="mt-14 grid gap-6 lg:grid-cols-3 items-stretch">
+      <div class="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4 items-stretch">
         <article class="fade card-hover glass rounded-3xl p-8 flex flex-col">
           <h3 class="font-display font-semibold text-white text-lg">Instap</h3>
           <p class="mt-1 text-slate-300 text-sm">Voor eenmanszaken</p>
@@ -747,24 +755,37 @@
             <li class="flex gap-2.5"><span class="text-cyan shrink-0">&#10003;</span> Tot 200 boekingen per jaar</li>
             <li class="flex gap-2.5"><span class="text-cyan shrink-0">&#10003;</span> Vaste boekhouder</li>
           </ul>
-          <a href="/aanmelden.html" class="mt-8 inline-flex justify-center items-center rounded-full glass px-5 py-3 font-semibold text-white hover:border-cyan/30 transition-all">Kies Instap</a>
+          <a href="/aanmelden.html?pakket=instap" class="mt-8 inline-flex justify-center items-center rounded-full glass px-5 py-3 font-semibold text-white hover:border-cyan/30 transition-all">Kies Instap</a>
         </article>
 
         <article class="fade card-hover relative rounded-3xl p-8 flex flex-col lg:-mt-4 lg:mb-4" data-delay="1" style="background:linear-gradient(180deg,rgba(28,44,74,0.85),rgba(18,30,52,0.7));border:1px solid rgba(34,211,238,0.30);box-shadow:0 24px 60px -32px rgba(34,211,238,0.30);">
           <span class="self-start inline-flex items-center rounded-full bg-gradient-to-r from-accent to-violet text-white text-xs font-semibold uppercase tracking-wide px-3 py-1">Meest gekozen</span>
-          <h3 class="mt-4 font-display font-semibold text-white text-lg">Groei</h3>
+          <h3 class="mt-4 font-display font-semibold text-white text-lg">Plus</h3>
           <p class="mt-1 text-slate-300 text-sm">ZZP en groeiende eenmanszaken</p>
-          <p class="mt-6 font-display font-bold leading-none"><span class="text-5xl gradient-text">&euro;145</span><span class="text-base text-slate-300"> /mnd</span></p>
+          <p class="mt-6 font-display font-bold leading-none"><span class="text-5xl gradient-text">&euro;115</span><span class="text-base text-slate-300"> /mnd</span></p>
           <ul class="mt-6 space-y-2.5 text-[15px] text-slate-200 flex-1">
+            <li class="flex gap-2.5"><span class="text-cyan shrink-0">&#10003;</span> Alles uit Instap</li>
+            <li class="flex gap-2.5"><span class="text-cyan shrink-0">&#10003;</span> Tot 350 boekingen per jaar</li>
+            <li class="flex gap-2.5"><span class="text-cyan shrink-0">&#10003;</span> Aangifte inkomstenbelasting</li>
+            <li class="flex gap-2.5"><span class="text-cyan shrink-0">&#10003;</span> Proactief advies</li>
+          </ul>
+          <a href="/aanmelden.html?pakket=plus" class="mt-8 inline-flex justify-center items-center rounded-full px-5 py-3 font-semibold text-white bg-gradient-to-r from-accent to-violet hover:brightness-110 transition-all">Kies Plus</a>
+        </article>
+
+        <article class="fade card-hover glass rounded-3xl p-8 flex flex-col" data-delay="2">
+          <h3 class="font-display font-semibold text-white text-lg">Groei</h3>
+          <p class="mt-1 text-slate-300 text-sm">ZZP en groeiende eenmanszaken</p>
+          <p class="mt-6 font-display font-bold text-white leading-none"><span class="text-5xl">&euro;145</span><span class="text-base text-slate-300"> /mnd</span></p>
+          <ul class="mt-6 space-y-2.5 text-[15px] text-slate-300 flex-1">
             <li class="flex gap-2.5"><span class="text-cyan shrink-0">&#10003;</span> Alles uit Instap</li>
             <li class="flex gap-2.5"><span class="text-cyan shrink-0">&#10003;</span> Tot 500 boekingen per jaar</li>
             <li class="flex gap-2.5"><span class="text-cyan shrink-0">&#10003;</span> Aangifte inkomstenbelasting</li>
             <li class="flex gap-2.5"><span class="text-cyan shrink-0">&#10003;</span> Proactief advies</li>
           </ul>
-          <a href="/aanmelden.html" class="mt-8 inline-flex justify-center items-center rounded-full px-5 py-3 font-semibold text-white bg-gradient-to-r from-accent to-violet hover:brightness-110 transition-all">Kies Groei</a>
+          <a href="/aanmelden.html?pakket=groei" class="mt-8 inline-flex justify-center items-center rounded-full glass px-5 py-3 font-semibold text-white hover:border-cyan/30 transition-all">Kies Groei</a>
         </article>
 
-        <article class="fade card-hover glass rounded-3xl p-8 flex flex-col" data-delay="2">
+        <article class="fade card-hover glass rounded-3xl p-8 flex flex-col" data-delay="3">
           <h3 class="font-display font-semibold text-white text-lg">MKB &amp; BV / DGA</h3>
           <p class="mt-1 text-slate-300 text-sm">BV&#39;s, DGA&#39;s en MKB met personeel</p>
           <p class="mt-6 font-display font-bold text-white leading-none"><span class="text-5xl">&euro;200</span><span class="text-base text-slate-300"> /mnd</span></p>
@@ -773,7 +794,7 @@
             <li class="flex gap-2.5"><span class="text-violet shrink-0">&#10003;</span> Jaarrekening &amp; VPB</li>
             <li class="flex gap-2.5"><span class="text-violet shrink-0">&#10003;</span> Loon inbegrepen</li>
           </ul>
-          <a href="/aanmelden.html" class="mt-8 inline-flex justify-center items-center rounded-full glass px-5 py-3 font-semibold text-white hover:border-violet/30 transition-all">Kies MKB &amp; BV</a>
+          <a href="/aanmelden.html?pakket=bv" class="mt-8 inline-flex justify-center items-center rounded-full glass px-5 py-3 font-semibold text-white hover:border-violet/30 transition-all">Kies MKB &amp; BV</a>
         </article>
       </div>
     </div>
@@ -883,7 +904,7 @@
       <div class="mt-12 border-t border-white/10">
         <details class="faq-item fade border-b border-white/10">
           <summary><h3 class="font-display font-semibold text-white text-lg">Wat kost een boekhouder bij Fortly?</h3></summary>
-          <div class="faq-answer"><p class="mt-2 text-slate-300 text-[15px] leading-relaxed">Je betaalt een vaste maandprijs: &euro;85 voor Instap, &euro;145 voor Groei of &euro;200 voor MKB &amp; BV / DGA, telkens exclusief btw. Geen uurtarief en geen verrassingen achteraf. Welk pakket past hangt af van je rechtsvorm en het aantal boekingen.</p></div>
+          <div class="faq-answer"><p class="mt-2 text-slate-300 text-[15px] leading-relaxed">Je betaalt een vaste maandprijs: &euro;85 voor Instap, &euro;115 voor Plus, &euro;145 voor Groei of &euro;200 voor MKB &amp; BV / DGA, telkens exclusief btw. Geen uurtarief en geen verrassingen achteraf. Welk pakket past hangt af van je rechtsvorm en het aantal boekingen.</p></div>
         </details>
         <details class="faq-item fade border-b border-white/10">
           <summary><h3 class="font-display font-semibold text-white text-lg">Kan ik overstappen van mijn huidige boekhouder of accountant?</h3></summary>
