@@ -9,6 +9,7 @@ Voor het MKB verzorgt Fortly onder meer loonadministratie voor personeel (loonst
 ## Diensten en prijzen
 
 - Instap, €85/maand (excl. btw): boekhouding voor eenmanszaken tot 200 boekingen per jaar, inclusief kwartaal btw-aangifte, jaarlijkse IB-aangifte en een vaste aanspreekpersoon.
+- Plus, €115/maand (excl. btw): voor ZZP'ers en groeiende eenmanszaken tot 350 boekingen per jaar, inclusief maandrapportage en cashflow-overzicht.
 - Groei, €145/maand (excl. btw): voor ZZP'ers en groeiende eenmanszaken tot 500 boekingen per jaar, inclusief maandrapportage en cashflow-overzicht.
 - MKB & BV / DGA, €200/maand (excl. btw): volledige boekhouding voor MKB-bedrijven met personeel, BV's en DGA's, inclusief vennootschapsbelasting (VPB), jaarrekening, loonadministratie, WKR, DGA-salaris, holdingstructuur-advies en onbeperkte boekingen.
 
